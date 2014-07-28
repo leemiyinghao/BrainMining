@@ -2,6 +2,7 @@ BrainMining
 ===========
 
 ![BrainMining](https://i.imgur.com/3ha2kVU.jpg)
+
 (Picture from [Liberty Times](http://news.ltn.com.tw/news/politics/breakingnews/1064265))
 
 BrainMining is a new idea develop by President Ma and impress the whole world.
@@ -16,7 +17,7 @@ To do this, all you need is:
 
 1. Install the plugin
 
-2. Point another player's head in game.
+2. Point at another player's head in game.
 
 3. Switch to a Pickaxe.
 
@@ -27,4 +28,4 @@ To do this, all you need is:
 
 ===========
 
-Tested with CraftBukkit 1.4.6 R0.3, but should work with any version of Bukkit.
+Tested with CraftBukkit 1.4.6 R0.3, but should work with any version of Bukkit later than 1.3.1.
