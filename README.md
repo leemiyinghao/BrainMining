@@ -9,3 +9,7 @@ The idea is, Mining directly form Human Brain, when there is a resource limitati
 
 To prove this idea is workable, we will test it in the Minecraft world by this Bukkit Plugin. The plugin will generate a random amount of Cobblestone, Iron Ore, Gold Ore, Coal or Emerald when player Right-Click on another player with any Pickaxe.
 (But remember, there is no free lunch under the sky. Every times you get a set of ore, it will reduce durability five times more than normal mining.)
+
+===========
+
+Tested with CraftBukkit 1.4.6 v0.3, but should work with any version of Bukkit.
