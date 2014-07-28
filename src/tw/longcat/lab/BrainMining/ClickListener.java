@@ -49,6 +49,12 @@ public class ClickListener implements Listener{
 		targetPlayerLoc.setY(targetPlayerEyeY);
 		targetPlayerLoc.getWorld().dropItemNaturally(targetPlayerLoc, ore);
 		e.getPlayer().getItemInHand().setDurability((short) (e.getPlayer().getItemInHand().getDurability() + 5));
+		if(e.getPlayer().getItemInHand().getDurability() > e.getPlayer().getItemInHand().getType().getMaxDurability()){
+			ItemStack item = e.getPlayer().getItemInHand();
+			item.setAmount(0);
+			e.getPlayer().setItemInHand(item);
+			e.getPlayer().sendMessage("hi");
+		}
     	return true;
     }
 }
